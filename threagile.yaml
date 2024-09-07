@@ -783,7 +783,6 @@ technical_assets:
     id: erp-system
     #diagram_tweak_order: 0 # affects left to right positioning (only within a trust boundary)
     description: BLIFE ERP system
-    background_color: "#FFA07A"
     type: process # values: external-entity, process, datastore
     usage: business # values: business, devops
     used_as_client_by_human: false
@@ -1172,7 +1171,7 @@ trust_boundaries:
   BLIFE DMZ:
     id: erp-dmz
     description: BLIFE DMZ
-    type: network-cloud-security-group # values: see help
+    type:  network-policy-namespace-isolation # values: see help
     tags:
       - some-erp
     technical_assets_inside: # sequence of IDs to reference
