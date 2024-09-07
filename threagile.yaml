@@ -1168,9 +1168,9 @@ trust_boundaries:
     trust_boundaries_nested: # sequence of IDs to reference
 
 
-  ERP DMZ:
+  BLIFE DMZ:
     id: erp-dmz
-    description: ERP DMZ
+    description: BLIFE DMZ
     type: network-cloud-security-group # values: see help
     tags:
       - some-erp
