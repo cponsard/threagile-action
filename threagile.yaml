@@ -782,7 +782,7 @@ technical_assets:
   BLIFE ERP System:
     id: erp-system
     #diagram_tweak_order: 0 # affects left to right positioning (only within a trust boundary)
-    description: ERP system
+    description: BLIFE ERP system
     type: process # values: external-entity, process, datastore
     usage: business # values: business, devops
     used_as_client_by_human: false
