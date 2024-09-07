@@ -2,7 +2,7 @@ on:
   push:
     paths:
       - 'threagile.yaml' # useful to filter this job to execute only when the threat model changes
-
+  workflow_dispatch:
 
 jobs:
 
