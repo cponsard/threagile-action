@@ -779,7 +779,7 @@ technical_assets:
         #diagram_tweak_constraint: false
 
 
-  Backoffice ERP System:
+  BLIFE ERP System:
     id: erp-system
     #diagram_tweak_order: 0 # affects left to right positioning (only within a trust boundary)
     description: ERP system
